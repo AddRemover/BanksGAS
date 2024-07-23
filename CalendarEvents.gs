@@ -1,10 +1,8 @@
 var CalendarID="put_your_cal_id_here@group.calendar.google.com"
-//a range of pay events in the sheet.
-var NamedRange="BankEvents"
-var cal=CalendarApp.getCalendarById(CalendarID)
 
 //global var define.
 var matchfound
+var cal=CalendarApp.getCalendarById(CalendarID)
 
 //Main function. Will create even if there is no such event already created
 function createCalendarEvents(Range) {
